@@ -192,24 +192,3 @@ const flipTile = () => {
     }, 500 * index);
   });
 };
-
-// NOTES OTHER METHOD / NOT AS GOOD
-
-// rowTiles.forEach((tile, index) => {
-//   const dataLetter = tile.getAttribute("data");
-// tile.classList.add("flip");
-// if (dataLetter == wordle[index]) {
-//   tile.classList.add("green-overlay");
-//   addColorToKey(dataLetter, "green-overlay");
-// } else if (wordle.includes(dataLetter)) {
-//   tile.classList.add("yellow-overlay");
-//   addColorToKey(dataLetter, "yellow-overlay");
-// } else {
-//   tile.classList.add("grey-overlay");
-//   addColorToKey(dataLetter, "grey-overlay");
-// }
-// rowTiles.forEach((tile, index) => {
-
-//   setTimeout(() => {}, 500 * index);
-// });
-// };
